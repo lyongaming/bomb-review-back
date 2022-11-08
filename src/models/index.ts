@@ -14,4 +14,4 @@ const db = {
 
 db.users = require("./user")(sequelize);
 
-module.exports = db;
+export default db;
