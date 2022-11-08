@@ -4,7 +4,7 @@ import cors from "cors";
 
 import router from "./routes";
 
-const PORT = process.env.PORT || "8080";
+const PORT = <string>process.env.PORT;
 const app = express();
 
 app.use(cors());
